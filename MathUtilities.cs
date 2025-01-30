@@ -29,11 +29,5 @@ namespace AINumbersRecognize
         {
             return value * (1f - value);
         }
-
-        public float SquareDifference(float a, float b)
-        {
-            float difference = a - b;
-            return difference * difference;
-        }
     }
 }
